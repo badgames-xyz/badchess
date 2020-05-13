@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/badchess/static/css/main.5db9d49f.chunk.css",
+    "main.js": "/badchess/static/js/main.c59531b8.chunk.js",
+    "main.js.map": "/badchess/static/js/main.c59531b8.chunk.js.map",
+    "runtime-main.js": "/badchess/static/js/runtime-main.12981bec.js",
+    "runtime-main.js.map": "/badchess/static/js/runtime-main.12981bec.js.map",
+    "static/js/2.39c190aa.chunk.js": "/badchess/static/js/2.39c190aa.chunk.js",
+    "static/js/2.39c190aa.chunk.js.map": "/badchess/static/js/2.39c190aa.chunk.js.map",
+    "index.html": "/badchess/index.html",
+    "precache-manifest.bb9e03dccad7e2437df582e25091ec2c.js": "/badchess/precache-manifest.bb9e03dccad7e2437df582e25091ec2c.js",
+    "service-worker.js": "/badchess/service-worker.js",
+    "static/css/main.5db9d49f.chunk.css.map": "/badchess/static/css/main.5db9d49f.chunk.css.map",
+    "static/js/2.39c190aa.chunk.js.LICENSE.txt": "/badchess/static/js/2.39c190aa.chunk.js.LICENSE.txt",
+    "static/media/black_horse.png": "/badchess/static/media/black_horse.9b27dd1e.png",
+    "static/media/black_king.png": "/badchess/static/media/black_king.75f0836c.png",
+    "static/media/black_queen.png": "/badchess/static/media/black_queen.5b280083.png",
+    "static/media/white_bishop.png": "/badchess/static/media/white_bishop.858bcbcc.png",
+    "static/media/white_horse.png": "/badchess/static/media/white_horse.fb87627a.png",
+    "static/media/white_king.png": "/badchess/static/media/white_king.3ff359d6.png",
+    "static/media/white_queen.png": "/badchess/static/media/white_queen.7cf685a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12981bec.js",
+    "static/js/2.39c190aa.chunk.js",
+    "static/css/main.5db9d49f.chunk.css",
+    "static/js/main.c59531b8.chunk.js"
+  ]
+}
