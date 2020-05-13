@@ -162,6 +162,8 @@ class ChessBoard extends React.Component {
             this.state.playerID = this.props.playerID;
         }
 
+        this.wait = null;
+
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -186,7 +188,7 @@ class ChessBoard extends React.Component {
     }
 
     waitMove(){
-        let wait = new EventSource("https://badchess-server.herokuapp.com/wait_for_move", { withCredentials: true });
+        this.wait = new EventSource("https://badchess-server.herokuapp.com/wait_for_move", { withCredentials: true });
         wait.addEventListener('message', (e) => {
             let data = JSON.parse(e.data)
             console.log(data);
@@ -289,6 +291,17 @@ class ChessBoard extends React.Component {
                     }
                 })
         }
+    }
+
+    componentWillUnmount() {
+        if (this.wait !== null) {
+            this.wait.close();
+        }
+        let data = JSON.stringify({
+            gameID: this.state.gameID,
+            playerID: this.state.playerID
+        })
+        makeCall("leave_two_player_game", "POST", data)
     }
 
     checkSelected(x,y){
