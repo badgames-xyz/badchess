@@ -11,10 +11,10 @@ function App() {
   return (
     <Router history={history}>
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/create" component={Create}/>
-        <Route path="/join" component={Join}/>
-        <Route path="/singleplayer" component={SinglePlayer}/>
+        <Route path="/badchess" exact component={Home}/>
+        <Route path="/badchess/create" component={Create}/>
+        <Route path="/badchess/join" component={Join}/>
+        <Route path="/badchess/singleplayer" component={SinglePlayer}/>
       </Switch>
     </Router>
   );
