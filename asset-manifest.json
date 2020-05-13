@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/badchess/static/css/main.5db9d49f.chunk.css",
-    "main.js": "/badchess/static/js/main.b9005a16.chunk.js",
-    "main.js.map": "/badchess/static/js/main.b9005a16.chunk.js.map",
+    "main.js": "/badchess/static/js/main.3f1ef327.chunk.js",
+    "main.js.map": "/badchess/static/js/main.3f1ef327.chunk.js.map",
     "runtime-main.js": "/badchess/static/js/runtime-main.12981bec.js",
     "runtime-main.js.map": "/badchess/static/js/runtime-main.12981bec.js.map",
     "static/js/2.a828f657.chunk.js": "/badchess/static/js/2.a828f657.chunk.js",
     "static/js/2.a828f657.chunk.js.map": "/badchess/static/js/2.a828f657.chunk.js.map",
     "index.html": "/badchess/index.html",
-    "precache-manifest.5ec9a15f95806b08fe0391e8e52aaedd.js": "/badchess/precache-manifest.5ec9a15f95806b08fe0391e8e52aaedd.js",
+    "precache-manifest.6c3306f6489351ea44894e0d60c7f7e2.js": "/badchess/precache-manifest.6c3306f6489351ea44894e0d60c7f7e2.js",
     "service-worker.js": "/badchess/service-worker.js",
     "static/css/main.5db9d49f.chunk.css.map": "/badchess/static/css/main.5db9d49f.chunk.css.map",
     "static/js/2.a828f657.chunk.js.LICENSE.txt": "/badchess/static/js/2.a828f657.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.12981bec.js",
     "static/js/2.a828f657.chunk.js",
     "static/css/main.5db9d49f.chunk.css",
-    "static/js/main.b9005a16.chunk.js"
+    "static/js/main.3f1ef327.chunk.js"
   ]
 }
