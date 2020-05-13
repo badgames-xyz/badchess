@@ -291,16 +291,6 @@ class ChessBoard extends React.Component {
         }
     }
 
-    componentWillUnmount() {
-        if (!this.state.isSinglePlayer) {
-            let data = JSON.stringify({
-                gameID: this.state.gameID,
-                playerID: this.state.playerID
-            })
-            makeCall("leave_two_player_game", "POST", data)
-        }
-    }
-
     checkSelected(x,y){
         return this.state.isSelected && this.state.selectedCoordinate[0] === x
             && this.state.selectedCoordinate[1] === y;
