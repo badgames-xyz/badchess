@@ -189,15 +189,15 @@ class ChessBoard extends React.Component {
 
     waitMove(){
         this.wait = new EventSource("https://badchess-server.herokuapp.com/wait_for_move", { withCredentials: true });
-        wait.addEventListener('message', (e) => {
+        this.wait.addEventListener('message', (e) => {
             let data = JSON.parse(e.data)
             console.log(data);
             if (data.playerTurn === this.state.playerNumber) {
                 this.setState({gameState: data}, this.processJSON());
             }
         });
-        wait.addEventListener('close', function(e) {
-            wait.close();
+        this.wait.addEventListener('close', function(e) {
+            this.wait.close();
         })
     }
 
