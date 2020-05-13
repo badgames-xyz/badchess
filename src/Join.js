@@ -122,7 +122,7 @@ class Join extends React.Component {
                                 </Typography>
                             </Button>
                             <div style={{display: "inline-block", paddingLeft: "25px"}}/>
-                            <Button component={Link} to="/" style={{textTransform: 'none', backgroundColor: "#F0EBD8"}} variant="contained">
+                            <Button component={Link} to="/badchess/" style={{textTransform: 'none', backgroundColor: "#F0EBD8"}} variant="contained">
                                 <Typography variant="h3">
                                     Back
                                 </Typography>

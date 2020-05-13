@@ -47,7 +47,7 @@ function SideBar() {
                 anchor="left" 
                 classes={{ paper: styles.sideBar }}
             >
-                <ListItem button component={Link} to="/">
+                <ListItem button component={Link} to="/badchess/">
                     <ListItemText>
                         <Typography 
                             variant="h4" 
@@ -60,7 +60,7 @@ function SideBar() {
                     </ListItemText>
                 </ListItem>
                 <List>
-                    <ListItem button component={Link} to="/" key="Home">
+                    <ListItem button component={Link} to="/badchess/" key="Home">
                         <HomeIcon classes={{ root: styles.iconPadding }} htmlColor="#DAD5C6" />
                         <SideBarItem text="Home" />
                     </ListItem>
