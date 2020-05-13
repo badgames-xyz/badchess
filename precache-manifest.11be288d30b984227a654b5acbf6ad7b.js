@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5191ec5cecd49fc7cb5eed9959b1314a",
+    "revision": "a6db91b25a3b778f173c5fc9ccbc54b0",
     "url": "/badchess/index.html"
   },
   {
-    "revision": "d30182030d4d3cdcb0b0",
+    "revision": "c133e3b142db54dd0dcd",
     "url": "/badchess/static/css/main.5db9d49f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/badchess/static/js/2.a828f657.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d30182030d4d3cdcb0b0",
-    "url": "/badchess/static/js/main.a93faa12.chunk.js"
+    "revision": "c133e3b142db54dd0dcd",
+    "url": "/badchess/static/js/main.df706887.chunk.js"
   },
   {
     "revision": "51b4104b1b33fae9ea3a",
