@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6db91b25a3b778f173c5fc9ccbc54b0",
+    "revision": "8e98b41e2efa61bd323f64ebede24a8a",
     "url": "/badchess/index.html"
   },
   {
-    "revision": "c133e3b142db54dd0dcd",
+    "revision": "7d43c73ea876150d7da3",
     "url": "/badchess/static/css/main.5db9d49f.chunk.css"
   },
   {
-    "revision": "b83e38d1bf0933466ea1",
-    "url": "/badchess/static/js/2.a828f657.chunk.js"
+    "revision": "893fb4dd9c88c4ff87dd",
+    "url": "/badchess/static/js/2.e74c344d.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/badchess/static/js/2.a828f657.chunk.js.LICENSE.txt"
+    "url": "/badchess/static/js/2.e74c344d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c133e3b142db54dd0dcd",
-    "url": "/badchess/static/js/main.df706887.chunk.js"
+    "revision": "7d43c73ea876150d7da3",
+    "url": "/badchess/static/js/main.47d6f994.chunk.js"
   },
   {
     "revision": "51b4104b1b33fae9ea3a",
